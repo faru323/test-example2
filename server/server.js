@@ -59,6 +59,15 @@ app.post(
   }
 );
 
+app.delete("/api/products/:id", (req, res) => {
+  if (req.params.id)
+    ProductModel.findByIdAndDelete(req.params.id, (error, data) => {
+      if (error) return res.status(500).send({ error });
+
+      res.send(data);
+    });
+});
+
 app.listen(PORT, () => {
   console.log(`Example app listening on port ${PORT}`);
 });
