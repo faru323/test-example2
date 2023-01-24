@@ -1,0 +1,85 @@
+
+.navbarContainer{
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    position:sticky;
+top: 0;
+background-color: white;
+z-index: 999;
+
+left: 0;
+width: 100%;
+}
+.navb{
+    width: 80%;
+    height: 100px;
+    z-index: 990;
+background-color: white;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items:center;
+
+}
+.navbLeft{
+    display:flex;
+    align-items: center;
+    
+}
+.logo{
+    color:rgb(0, 51, 255);
+    width: 40px;
+    height: 40px;
+}
+.name{
+    font-size: xx-large;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbUl{
+    list-style: none;
+    
+}
+.navList{
+   
+    display: inline;
+    list-style: none;
+  
+}
+.navLi{
+    text-decoration: none;
+    margin-left: 40px;
+    font-weight: 500;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+}
+.navLi:hover{
+    color:rgb(0, 51, 255);
+}
+.searchLogo{
+    color: black;
+    font-size: larger;
+    margin-right: 10px;
+}
+.basketLogo{
+    font-size: larger;
+}
+.button{
+    background-color: white;
+    color: black;
+    margin-left: 50px;
+    padding: 15px 40px;
+    border-radius: 20px;
+    border: 1px solid rgb(198, 198, 198,0.5);
+    transition: 0.4s;
+}
+.button:hover{
+    border: 1px solid rgb(0, 51, 255);
+}
+.navbRight{
+    display: flex;
+
+    align-items: center;
+}
